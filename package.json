@@ -1,0 +1,38 @@
+{
+  "name": "@skywardapps/async-lru-cache",
+  "version": "1.0.0",
+  "description": "A caching library for handling async functions without storing errors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/**/*"],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkywardApps/async-lru-cache.git"
+  },
+  "keywords": [
+    "memoize",
+    "cache",
+    "async",
+    "lru",
+    "caching"
+  ],
+  "author": "Skyward App Company",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkywardApps/async-lru-cache/issues"
+  },
+  "homepage": "https://github.com/SkywardApps/async-lru-cache#readme",
+  "dependencies": {
+    "jest": "^27.3.1",
+    "lru-cache": "^6.0.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/lru-cache": "^5.1.1"
+  }
+}
